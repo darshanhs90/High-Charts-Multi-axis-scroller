@@ -8,7 +8,7 @@ $(function () {
         // Create the chart
         $('#container').highcharts('StockChart', {
             chart: {
-               /* events: {
+                events: {
                     load: function () {
                         if (!window.isComparing) {
                             this.setTitle(null, {
@@ -16,7 +16,7 @@ $(function () {
                             });
                         }
                     }
-                },*/
+                },
                 zoomType: 'xy'
             },
 
